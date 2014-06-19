@@ -6,3 +6,5 @@
   postData.loadPosts()
 
   $scope.data.postId = $routeParams.postId
+  
+@PostCtrl.$inject = ['$scope', '$routeParams', 'postData']
